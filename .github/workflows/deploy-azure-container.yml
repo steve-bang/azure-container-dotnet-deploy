@@ -3,7 +3,7 @@ name: Deploy JFramework to azure container
 on:
   workflow_dispatch:
   push:
-    branches: ["develop"]
+    branches: ["main"]
 env:
   AZURE_CONTAINER_REGISTRY: your-container-registry
   CONTAINER_APP_NAME: your-container-app
